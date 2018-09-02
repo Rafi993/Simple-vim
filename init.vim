@@ -14,6 +14,8 @@ set shiftwidth=2
 let g:netrw_winsize = 25
 
 set showcmd
+set ignorecase
+set smartcase
 
 """ Disabling arrow keys
 nnoremap <Left> :echo "No left for you!"<CR>
