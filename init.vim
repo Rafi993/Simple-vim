@@ -44,6 +44,7 @@ call plug#begin()
  Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
  Plug 'junegunn/fzf.vim'
  Plug 'vim-airline/vim-airline'
+ Plug 'mileszs/ack.vim'
 call plug#end()
 
 """ Options plugins
